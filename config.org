@@ -76,19 +76,6 @@
 (load-theme 'doom-one t)
 #+end_src
 
-** PDF TOOLS
-#+begin_src emacs-lisp
-(use-package pdf-tools
-  :ensure t
-  :config
-  (pdf-tools-install)
-  (setq-default pdf-view-display-size 'fit-page))
-
-
-(use-package org-noter
-  :ensure t)
-
-#+end_src
 
 ** FONTS 
 #+begin_src emacs-lisp
